@@ -16,7 +16,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 215px 565px 223px;
-    grid-template-rows: 23px 99px 210px 124px 51px 512px;
+    grid-template-rows: 24px 100px 209px 122px 51px 513px;
     grid-template-areas:
       "one one one"
       "two seven seven"
@@ -31,7 +31,6 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-left: 0.5rem;
 }
 
 .box1 { grid-area: one; }
