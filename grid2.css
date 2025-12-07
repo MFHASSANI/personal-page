@@ -48,7 +48,7 @@ ul {
     .list-bg {
         width: 193px;
         height: 355px;
-        background: rgba(255, 255, 255, 0.5); /* white with 0.5 opacity */
+        background: rgba(255, 255, 255, 0.5);
         padding: 0;
         margin: 0;
         display: flex;
