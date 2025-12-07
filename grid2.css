@@ -35,9 +35,6 @@ body {
 }
 
 ul {
-    font-family: 'Roboto Slab', serif;
-    font-size: 12px;
-    font-weight: bold;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -57,7 +54,7 @@ ul {
         display: flex;
         flex-direction: column;
     }
-    
+
 .box3 {
     display: flex;
 }
@@ -79,8 +76,8 @@ ul {
 
 .product-list {
     font-family: 'Roboto Slab', serif;
-    font-size: 11px;
-    font-weight: medium;
+    font-size: 12px;
+    font-weight: bolder;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -101,14 +98,14 @@ ul {
 
   .electronics {
     flex-basis: 20px;
-    padding-left: 13px;
-    padding-top: 6px;
+    padding-left: 12px;
+    padding-top: 5px;
   }
   
   .computers {
     flex-basis: 20px;
-    margin-top: 17px;
-    padding-left: 12px;
+    margin-top: 16px;
+    padding-left: 11px;
   }
   
   .appliances {
@@ -126,13 +123,13 @@ ul {
   .clothes-accessories {
     flex-basis: 20px;
     margin-top: 12px;
-    padding-left: 13px;
+    padding-left: 11px;
   }
   
   .children-products {
     flex-basis: 20px;
     margin-top: 12px;
-    padding-left: 12px;
+    padding-left: 10px;
   }
   
   .sport-leisure {
@@ -144,7 +141,7 @@ ul {
   .auto-products {
     flex-basis: 20px;
     margin-top: 12px;
-    padding-left: 12px;
+    padding-left: 11px;
   }
   
   .home-garden-repair {
@@ -162,6 +159,6 @@ ul {
   .books {
     flex-basis: 20px;
     margin-top: 13px;
-    padding-left: 12px;
+    padding-left: 11px;
   }
   
