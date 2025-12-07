@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT Serif');
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
 * {
     margin: 0;
     box-sizing: border-box;
@@ -35,7 +35,7 @@ body {
 }
 
 ul {
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 12px;
     font-weight: bold;
     list-style-type: none;
@@ -48,6 +48,16 @@ ul {
     align-items: start;
     }
 
+    .list-bg {
+        width: 193px;
+        height: 355px;
+        background: rgba(255, 255, 255, 0.5); /* white with 0.5 opacity */
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
 .box3 {
     display: flex;
 }
@@ -68,9 +78,9 @@ ul {
 .box9 { grid-area: nine; }
 
 .product-list {
-    font-family: 'PT Serif', serif;
-    font-size: 12px;
-    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 11px;
+    font-weight: medium;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -80,52 +90,78 @@ ul {
   }
   
   .products{
+    background: rgba(47, 127, 22, 0.5);
     color: #ffffff;
-    margin-top: 4px;
+    width: 193px;
+    height: 10px;
     flex-basis: 20px; 
+    margin-top: 5px;
+    padding-left: 11px;
   }
 
   .electronics {
     flex-basis: 20px;
+    padding-left: 13px;
+    padding-top: 6px;
   }
   
   .computers {
     flex-basis: 20px;
+    margin-top: 17px;
+    padding-left: 12px;
   }
   
   .appliances {
     flex-basis: 20px;
+    margin-top: 12px;
+    padding-left: 13px;
   }
   
   .beauty-health {
     flex-basis: 20px;
+    margin-top: 13px;
+    padding-left: 12px;
   }
   
   .clothes-accessories {
     flex-basis: 20px;
+    margin-top: 12px;
+    padding-left: 13px;
   }
   
   .children-products {
     flex-basis: 20px;
+    margin-top: 12px;
+    padding-left: 12px;
   }
   
   .sport-leisure {
     flex-basis: 20px;
+    margin-top: 12px;
+    padding-left: 13px;
   }
   
   .auto-products {
     flex-basis: 20px;
+    margin-top: 12px;
+    padding-left: 12px;
   }
   
   .home-garden-repair {
     flex-basis: 20px;
+    margin-top: 12px;
+    padding-left: 12px;
   }
   
   .kitchenware {
     flex-basis: 20px;
+    margin-top: 12px;
+    padding-left: 12px;
   }
   
   .books {
     flex-basis: 20px;
+    margin-top: 13px;
+    padding-left: 12px;
   }
   
