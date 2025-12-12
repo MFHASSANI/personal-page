@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body > img:nth-of-type(1) {
+  display: none;
+}
+
+body {
+  background-image: none;
+  opacity: 1;
+  max-width: 1282px;
+  min-height: 1199px;
+  font-size: 2rem;
+  color: #111;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(20px, 215px) minmax(20px, 565px) minmax(20px, 223px);
+  grid-template-rows: 60px 110px 260px 220px 220px 180px;
+  grid-template-areas:
+    "two two two"
+    "one seven seven"
+    "three seven seven"
+    "three five four"
+    "three eight four"
+    "six  nine nine";
+  gap: 12px;
+  padding: 12px;
+}
+
+.container > * {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #fff;
+}
+
+
+.box1 { grid-area: one; }
+.box2 { grid-area: two; }
+.box3 { grid-area: three; }
+.box4 { grid-area: four; }
+.box5 { grid-area: five; }
+.box6 { grid-area: six; }
+.box7 { grid-area: seven; }
+.box8 { grid-area: eight; }
+.box9 { grid-area: nine; }
+
+
+.box1 {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.box1 img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  display: block;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-bg {
+  width: 193px;
+  height: 355px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-list {
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.product-list li {
+  background-color: #2f7f16;
+  color: #ffffff;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ffffff;
+}
+
+
+.box7 {
+  position: relative;
+  background-image: url("https://img.freepik.com/free-vector/gradient-shopping-discount-horizontal-sale-banner_23-2150321996.jpg?semt=ais_hybrid&w=740&q=80");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 240px;
+}
+
+.box7::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+.box7 h1 {
+  position: relative;
+  z-index: 1;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  padding: 12px;
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "two"
+      "one"
+      "three"
+      "seven"
+      "five"
+      "eight"
+      "four"
+      "six"
+      "nine";
+  }
+
+  .box7 h1 {
+    font-size: 22px;
+  }
+
+  .list-bg {
+    width: 100%;
+    height: auto;
+  }
+}
